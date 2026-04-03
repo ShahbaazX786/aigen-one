@@ -36,7 +36,7 @@ const TestimonialColumn = (props: {
                             {props.testimonials.map(({ text, image, name, role }, i) => (
                                 <div
                                     className="w-full max-w-xs rounded-3xl border border-border bg-card p-10 text-card-foreground shadow-lg shadow-primary/10"
-                                    key={i}
+                                    key={`${index}-${i}`}
                                 >
                                     <div>{text}</div>
                                     <div className="mt-5 flex items-center gap-2">
