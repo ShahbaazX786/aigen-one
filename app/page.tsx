@@ -1,6 +1,7 @@
 import Gallery from "@/components/generic/Gallery";
 import Hero from "@/components/generic/Hero";
 import HowItWorks from "@/components/generic/HowItWorks";
+import Pricing from "@/components/generic/Pricing";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <Gallery />
       <HowItWorks />
+      <Pricing /> 
     </main>
   );
 }
