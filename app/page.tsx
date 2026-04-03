@@ -1,5 +1,6 @@
 import Gallery from "@/components/generic/Gallery";
 import Hero from "@/components/generic/Hero";
+import HowItWorks from "@/components/generic/HowItWorks";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       {/* <Button>Alhamdulillah</Button> */}
       <Hero />
       <Gallery />
+      <HowItWorks />
     </main>
   );
 }
