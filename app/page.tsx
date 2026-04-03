@@ -2,6 +2,7 @@ import Gallery from "@/components/generic/Gallery";
 import Hero from "@/components/generic/Hero";
 import HowItWorks from "@/components/generic/HowItWorks";
 import Pricing from "@/components/generic/Pricing";
+import Testimonials from "@/components/generic/Testimonials";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Gallery />
       <HowItWorks />
       <Pricing /> 
+      <Testimonials />
     </main>
   );
 }
