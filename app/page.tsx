@@ -1,5 +1,5 @@
-import Gallery from "@/components/custom/Gallery";
-import Hero from "@/components/custom/Hero";
+import Gallery from "@/components/generic/Gallery";
+import Hero from "@/components/generic/Hero";
 
 export default function Home() {
   return (
