@@ -1,6 +1,7 @@
 import Gallery from "@/components/generic/Gallery";
 import Hero from "@/components/generic/Hero";
 import HowItWorks from "@/components/generic/HowItWorks";
+import Footer from "@/components/generic/layout/Footer";
 import Pricing from "@/components/generic/Pricing";
 import Testimonials from "@/components/generic/Testimonials";
 
@@ -13,6 +14,7 @@ export default function Home() {
       <HowItWorks />
       <Pricing /> 
       <Testimonials />
+      <Footer />
     </main>
   );
 }
