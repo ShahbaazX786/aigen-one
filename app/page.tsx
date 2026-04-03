@@ -1,11 +1,10 @@
-import { Button } from "@/components/ui/button";
-import { ModeToggle } from "@/components/theme-toggle";
+import Hero from "@/components/custom/Hero";
 
 export default function Home() {
   return (
-    <div className="p-4 flex gap-4">
-      <Button>Alhamdulillah</Button>
-      <ModeToggle />
-    </div>
+    <main className="min-h-screen bg-background p-3 sm:p-4 lg:p-5">
+      {/* <Button>Alhamdulillah</Button> */}
+      <Hero />
+    </main>
   );
 }
